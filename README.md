@@ -1,2 +1,2 @@
-# Fintech
+# Fintech 
 Collaborative Fintech Project
