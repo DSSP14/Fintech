@@ -8,7 +8,7 @@ Created on Sun Nov  1 11:53:49 2020
 import pandas as pd
 import os
 
-dir_name = './data/'
+dir_name = '../data/'
 
 def load_csv(prefix):
     '''Load csv data & return as a dataframe'''

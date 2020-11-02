@@ -9,7 +9,7 @@ import yahoo_io as io
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-dir_name = './data/'
+file_prefix = 'merged_raw'
 
 target = 'Close_BTC_USD'
 #labels = ['BTC', 'CAC40', 'Crude', 'Gold', 'DJI', 'S&P', 'NASDAQ', '$/CNY', '$/€', '$/¥']
@@ -82,8 +82,7 @@ def kde_plots(df, column_list):
 
 
 if __name__ == '__main__':
-    prefix = 'merged_raw'
-    df = io.load_csv(prefix)
+    df = io.load_csv(file_prefix)
 
     print(df.describe().transpose())
 
